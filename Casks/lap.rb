@@ -1,9 +1,9 @@
 cask "lap" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.3.2"
-  sha256 arm:   "acd5bd81c890b5ec8bdd838a3a25b7218e1907d1f01d1d12b66a048cfede2fc2",
-         intel: "cf26cb880f58668096fc24b5962fe2465e608c51fe00101f01a07800058ed773"
+  version "0.3.3"
+  sha256 arm:   "27f1d745821f084b285df164cc0bbf8c9af9cc6159a0f598675f3633861f47f3",
+         intel: "8b0bb4569a77dae523043ed0e42c630a068070b4482b29f4b682503a39245847"
 
   url "https://github.com/julyx10/lap/releases/download/v#{version}/Lap_#{version}_#{arch}.dmg"
   name "Lap"
